@@ -18,6 +18,6 @@ public class CalendarController {
     public CalendarController(CalendarService calendarService, CalendarMapper calendarMapper) {
         this.calendarService = calendarService;
         this.calendarMapper = calendarMapper;
-        System.out.println("yes");
+
     }
 }
